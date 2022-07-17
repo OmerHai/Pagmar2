@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagmar</title>
+        <script type="text/javascript" src="pagmar.js"></script>
+        <link rel="stylesheet" href="pagmar.css">
+    </head>
+    <body onload="start()">
+        <div class="video-view">
+            <video id="street" class="video" playsinline autoplay muted loop> 
+                <source src="street.mp4" type="video/mp4">
+            </video>
+            <video id="industry" class="video" playsinline autoplay muted loop> 
+                <source src="industry.mp4" type="video/mp4">
+            </video>
+            <video id="park" class="video" playsinline autoplay muted loop> 
+                <source src="park.mp4" type="video/mp4">
+            </video>
+            <video id="cemetery" class="video" playsinline autoplay muted loop> 
+                <source src="cemetery.mp4" type="video/mp4">
+            </video>
+            <video id="tunnel" class="video" playsinline autoplay muted loop> 
+                <source src="tunnel.mp4" type="video/mp4">
+            </video>
+            <div class="video-content">
+                <input type="image" onclick="street()" src="street.png" class="myButton" /> 
+                <input type="image" onclick="industry()" src="industry.png" class="myButton" /> 
+                <input type="image" onclick="park()" src="park.png" class="myButton" /> 
+                <input type="image" onclick="cemetery()" src="cemetery.png" class="myButton" /> 
+                <input type="image" onclick="tunnel()" src="tunnel.png" class="myButton" /> 
+            </div>
+          </div>
+    </body>
+</html>
